@@ -1,0 +1,36 @@
+.cards {
+  padding: 50px 0;
+}
+
+.cards .cards-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cards .cards-tech .card {
+    text-align: center;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+    padding: 15px;
+    width: 20%;
+}
+
+.cards .cards-tech .card .img {
+  position: relative;
+  width: 100%;
+  height: 280px;
+}
+
+.cards .cards-tech .card .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards .cards-tech .card-info h3 {
+  padding: 20px 0;
+}

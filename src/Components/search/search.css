@@ -1,0 +1,27 @@
+.search .search-icon {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e7e9fe;
+  border-radius: 5px;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.search .search-icon input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  width: 100%;
+  background-color: #e7e9fe;
+  border-radius: 5px;
+
+  font-size: 16px;
+}
+
+.search .search-icon input::placeholder {
+  color: #353eeb;
+}
+
+.search .search-icon .fa-magnifying-glass {
+  color: #707070;
+}

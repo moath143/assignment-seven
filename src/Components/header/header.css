@@ -1,0 +1,41 @@
+header{
+    padding: 15px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+header .logo img{
+    width: 35%;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+header .logo,
+header .search{
+    flex: 1;
+}
+
+ header .menu {
+    flex: 2;
+}
+
+header .menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    color: #2937F4;
+}
+
+header .menu ul li:nth-of-type(even){
+    padding: 0 10px;
+}

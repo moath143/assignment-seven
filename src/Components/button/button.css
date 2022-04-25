@@ -1,0 +1,10 @@
+.form form .btn{
+    background-color: #5265ED;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 0;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
