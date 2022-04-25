@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Assignment seven
+In this assignment I used component and props
+### The components
+* Button => The button inside form component
+* Card => h3, p, and image card with props data every card
+* Cards => card inside cards component
+* Search => search input and icon from fontawesome
+* Header => logo and nav menu links
+* Form => text, email and phone input
+### The App.js
+* ```
+    <Header />
+* ```
+    <Cards />
+* ```
+    <Form />
+    ```
+    
+Finally you can navigate the site from [here](https://assignment-seven-taupe.vercel.app/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Topic research about synchronous, asynchronous and promise
+## Synchronous
+In a synchronous programming model, things happen one at a time.
+When you call a function that performs a long running action, it returns only when the
+action has finished and it can return the result. This stops your program for
+the time the action takes
 
-## Available Scripts
+## Asynchronous 
+An asynchronous programming allows multiple things to happen at the same time.
+When you start an action, your program continues to run. When the action finishes,
+the program is informed and gets access to the result.
 
-In the project directory, you can run:
+## Promise
+A promise is an asynchronous action that may complete at some point and produce a value.
+Ut is able to notify anyone who is interested when its value is available.
+The easiest way to create a promise is by calling Promise.resolve. This
+function ensures that the value you give it is wrapped in a promise.
+If it's already a promise, it is simply returned otherwise, you get a new promise
+that immediately finishes with your value as its result.
 
-### `npm start`
+```javascript
+let fifteen = Promise.resolve(15)
+fifteen.then(value => console.log(`Got ${value}`))
+// Got 15
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
