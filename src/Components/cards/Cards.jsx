@@ -14,42 +14,42 @@ const Cards = () => {
             photo={ReactPhoto}
             title={"React js"}
             desc={
-              "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
             }
           />
           <Card
             photo={VuePhoto}
             title={"Vue js"}
             desc={
-              "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
             }
           />
           <Card
             photo={AngularPhoto}
             title={"Angular js"}
             desc={
-              "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
             }
           />
           <Card
             photo={ReactPhoto}
             title={"React js"}
             desc={
-              "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
             }
           />
           <Card
             photo={VuePhoto}
             title={"Vue js"}
             desc={
-              "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
             }
           />
           <Card
             photo={AngularPhoto}
             title={"Angular js"}
             desc={
-              "          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,quidem."
             }
           />
         </div>
